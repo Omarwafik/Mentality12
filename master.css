@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../img/blue-wall-with-squares-that-say-blue_606390-2446.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 13vh;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+.logo{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+ul{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    text-transform: capitalize;
+    margin-left: 100px;
+}
+li a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    transition: all 0.5s 30ms;
+
+}
+li a:hover{
+    color: rgb(29, 160, 204);
+    font-size: 17px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 3px;
+    transition: all 0.5s 30ms;
+    
+   
+
+}
+.sign button{
+    padding: 12px 30px;
+    border: none;
+    text-transform: capitalize;
+
+
+}
+.sign .one{
+    background-color: transparent;
+    color: white;
+    margin-right: 5px;
+    transition: all 0.5s 30ms;
+}
+
+.sign .one:hover{
+    background-color: transparent;
+    border-radius:15px ;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 15px 35px;
+    transition: all 0.3s 30ms;
+
+}
+
+.sign .two{
+    background-color: white;
+    color: black;
+    border-radius:15px ;
+    transition: all 0.5s 30ms;
+}
+.sign .two:hover{
+    background-color: rgb(29, 160, 204);
+    color: white;
+    font-size: 15px;
+    padding: 15px 35px;
+    cursor: pointer;
+    transition: all 0.5s 30ms;
+}
+main{
+    /* background-color: black; */
+    height: 80vh;
+    padding:100px  ;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.top_p{
+    text-transform: capitalize;
+    width: fit-content;
+    height: fit-content;
+    background-color:rgb(255, 255, 255,0.1);
+   backdrop-filter: blur(5px);
+    padding: 10px;
+    border-radius:10px ;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+}
+.top_p  i{
+    margin-right: 5px;
+    color: rgb(29, 160, 204);
+}
+
+.big{
+    text-transform: capitalize;
+    font-size: 35px;
+    line-height: 80px;
+}
+.big h1 span{
+    background: linear-gradient(to right, #e3a670, #73cae4, #fd7949);
+     -webkit-background-clip: text;
+    color: transparent;
+}
+
+.bottom_p{
+    line-height: 28px;
+    text-transform: capitalize;
+    font-size: 14px;
+    opacity: 0.85;
+}
+
+.buttons button{
+    padding: 13px 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 15px;
+    text-transform: capitalize;
+    font-size: 15px;
+    transition: all 0.5s 30ms;
+}
+.buttons button:hover{
+   background-color: rgb(116, 177, 215);
+   color: black;
+   border: 1px solid  rgb(116, 177, 215);
+   transition: all 0.5s 30ms;
+   cursor: pointer;
+}
+.buttons .one{
+    margin-right:5px ;
+}
+footer{
+    /* background-color: mediumturquoise; */
+    height:40vh ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 10px;
+}
+.box{
+   
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 30px rgba(179, 53, 53, 0.1);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-transform: capitalize;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 26%;
+}
+.box i{
+    font-size: 33px;
+    margin-bottom: 10px;
+    color: rgb(29, 160, 204);
+}
+.box p{
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    opacity: 0.6;
+    transition: all 0.5s 30ms;
+}
+.box h3{
+   
+    opacity: 0.7;
+    transition: all 0.5s 30ms;
+}
+.box:hover p,
+.box:hover h3{
+    opacity: 1;
+    transition: all 0.5s 30ms;
+}
